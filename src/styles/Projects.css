@@ -1,0 +1,34 @@
+.project{
+  background-color: #8ca4b36d;
+  padding-bottom:15px ;
+}
+.projecth{
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px 0px;
+}
+.projecth>span{
+  padding: 0px 10px;
+  font-size:2rem;
+  font-weight:600;
+  color: #2a3442;
+  border-bottom: 2px solid #37475f;
+}
+.projectdesc{
+  width: 900px;
+  text-align: center;
+  background-color: #223e6882;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+}
+@media (max-width:844px){
+  .projectdesc{
+    width: fit-content;
+    text-align: center;
+    background-color: #223e6882;
+    border-radius: 10px;
+    padding: 10px;
+    margin:20px;
+  }
+}

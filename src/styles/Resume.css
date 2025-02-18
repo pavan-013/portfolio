@@ -1,0 +1,102 @@
+.resume{
+    padding: 5px 0px;
+    margin: 15px 50px 0px;
+}
+.reH{
+    text-align: center;
+    vertical-align: middle;
+}
+.reH span{
+    font-size:2rem;
+    font-weight: 600;
+    padding:10px 15px 3px;
+    border-bottom: 1px solid #7b8b93;
+    color: #37475f;
+}
+.reH p{
+    width:1050px;
+    padding-left: 20px;
+}
+.experience{
+    border-left: 3px solid #37475f;
+    padding: 0px 10px 5px;
+    margin-top: 30px;
+}
+.exp{
+    font-size:1.5rem;
+    font-weight: 500;
+    padding:10px 5px;
+    color: #37475f;
+}
+.intern{
+    padding-left: 20px;
+    display: flex;
+    gap: 460px;
+}
+.ed{
+    margin: 40px 0px;
+    display: flex;
+    gap: 300px;
+}
+.degree{
+    border-left: 3px solid #37475f;
+    padding: 5px 10px;
+}
+.degreeh{
+    font-size:1.5rem;
+    font-weight: 500;
+    padding:10px 5px;
+    color: #37475f;
+}
+.degree>p{
+    padding-left: 20px;
+}
+.degree>p>span{
+    padding: 0px 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.crtftn{
+    border-left: 3px solid #37475f;
+    padding: 0px 10px;
+    width: 400px;
+}
+.certi{
+    font-size:1.5rem;
+    font-weight: 500;
+    padding:10px 5px;
+    color: #37475f;
+}
+@media (max-width:844px){
+    .resume{
+        padding: 5px 10px;
+        margin: 15px 30px 0px;
+    }
+    .reH{
+        text-align: center;
+        vertical-align: middle;
+    }
+    .reH p{
+        width:300px;
+        padding-left: 0px;
+    }
+    .experience{
+        border-left: 3px solid #37475f;
+        padding: 5px 10px 5px;
+        margin-top: 20px;
+    }
+    .intern{
+        padding-left: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    .ed{
+        margin: 40px 0px;
+        display:block;
+        gap: 300px;
+    }
+    .crtftn{
+        border-left: 3px solid #37475f;
+        padding: 0px 10px;
+        width: 300px;
+    }
+}

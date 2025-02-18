@@ -1,0 +1,181 @@
+.about{
+    width: 100%;
+    height: 96vh;
+    padding-top: 20px;
+}
+.headingforabout{
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.headingforabout span{
+    font-size:2rem;
+    font-weight: 600;
+    padding:10px 15px 3px;
+    border-bottom: 1px solid #7b8b93;
+    color: #37475f;
+}
+.aboutinfo{
+    display: flex;
+    justify-content: center; 
+}
+.aboutinfo span{
+    width: 1000px;
+    text-align: center;
+    margin: 25px;
+    padding-right:30px;
+}
+.pandli{
+    display: inline-flex;
+}
+.myphto{
+    position: relative;
+    top: 26px;
+    left: 80px;
+    margin:0px 30px 0px;
+    padding: 10px;
+    background-color: rgba(37, 77, 136, 0.2);
+    width: 210px;
+    height: 310px;
+    backdrop-filter: blur(1px);
+    border-radius: 25px;
+    bottom:15px;
+}
+.myimage img{
+    width: 240px;
+    border-radius: 25px;
+    margin: 6px;
+}
+.myinfo{
+    position: relative;
+    top: 24px;
+    left: 120px;
+}
+.ht{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0px 0px;
+    margin: 15px 0px 5px;
+    color: #293e5e;
+}
+.myinfo ul{
+    margin-left: 30px;
+    padding: 10px 5px 0px;
+}
+.myinfo ul li::marker{
+    content: "≫";
+    color: #0d9be8;
+    font-size:20px;
+}
+.listsp{
+    margin: 0px 5px;
+}
+.Rpdf{
+    position: absolute;
+    bottom: 20px;
+    left: 160px;
+    text-decoration: none;
+}
+.Rbtn{
+    line-height: 1;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.75em 1em;
+    padding-right: 1.25em;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 2em;
+    font-size: 1rem;
+    box-shadow: 0 0.7em 1.5em -0.5em hsla(249, 62%, 51%, 0.745);
+    transition: transform 0.3s;
+  
+    background: linear-gradient(
+      90deg,
+      rgb(54, 85, 208) 0%,
+      rgb(116, 153, 254) 100%
+    );
+}
+.button__icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+.Rbtn:hover {
+    border-color: #f4f5f2;
+}
+.Rbtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 0.5em 1.5em -0.5em hsla(217, 62%, 51%, 0.745);
+}
+@media (max-width:844px){
+    .about{
+        width: 100%;
+        padding-top: 20px;
+        height: fit-content;
+    }
+    .aboutinfo{
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+    }
+    .aboutinfo span{
+        width: fit-content;
+        text-align: center;
+        margin: 25px;
+        padding-left:10px; 
+    }
+    .pandli{
+        display:inline-block;
+    }
+    .myphto{
+        position: relative;
+        left: 10%;
+        transform: translate(-10%);
+        padding: 10px;
+        background-color: rgba(37, 77, 136, 0.2);
+        width: 210px;
+        height: 310px;
+        backdrop-filter: blur(1px);
+        border-radius: 25px;
+    }
+    .myinfo{
+        position: relative;
+        left: 0%;
+        transform: translate(-0%);
+    }
+    .ht{
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px 0px 0px;
+        margin: 50px 30px 0px;
+        color: #293e5e;
+    }
+    .myinfo ul{
+        height: 300px;
+        margin-left: 60px;
+        padding: 10px 5px 0px;
+    }
+    .myinfo ul li::marker{
+        content: "≫";
+        color: #0d9be8;
+        font-size:20px;
+    }
+    .listsp{
+        margin: 0px 5px;
+    }
+    .Rpdf{
+        position: absolute;
+        bottom: 50px;
+        left: 60px;
+        transform: translate(60px,-10px);
+        text-decoration: none;
+        margin: auto;
+    }
+}
+

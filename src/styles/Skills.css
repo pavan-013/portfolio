@@ -1,0 +1,127 @@
+.skills{
+    background-color: #8ca4b36d;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.skillH{
+    text-align: center;
+    vertical-align: middle;
+}
+.skillH span{
+    padding: 0px 8px;
+    font-size:2rem;
+    font-weight:600;
+    color: #2a3442;
+    border-bottom: 2px solid #37475f;
+}
+.simgs{
+    display:flex;
+    justify-content:space-evenly;
+    margin: 30px 0px;
+    padding: 10px 0px;
+}
+.simg{
+    width:80px;
+    height:80px;
+    padding:2px;
+    border-radius: 25%;
+    background: #79b4d4;
+    vertical-align: middle;
+}
+/* .java{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 80%,#ffffff 0%);
+}
+.spring{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 78%,#ffffff 0%);
+}
+.html{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 90%,#ffffff 0%);
+}
+.css{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 88%,#ffffff 0%);
+}
+.js{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 89%,#ffffff 0%);
+}
+.react{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 85%,#ffffff 0%);
+}
+.bootstrap{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 90%, #ffffff 0%);
+}
+.mysql{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 80%, #ffffff 0%);
+}
+.mongo{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 4px;
+    background: conic-gradient(#226a97 70%,  0%,#ffffff);
+} */
+.tools{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+@media (max-width:844px){
+    .skills{
+        background-color: #8ca4b36d;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .simgs{
+        display:flex;
+        justify-content:space-evenly;
+        margin: 20px 0px;
+        padding: 10px 0px;
+    }
+    .simg{
+        width:60px;
+        height:60px;
+        padding:2px;
+        border-radius: 25%;
+        background: #79b4d4;
+    }
+    .tools{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+}
