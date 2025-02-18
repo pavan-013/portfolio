@@ -53,7 +53,7 @@ const Contact = () => {
                         <br />
                         <button type="submit">Send Message</button>
                     </form>
-                    {status && <p className="status-message">{status}</p>}
+{/*                     {status && <p className="status-message">{status}</p>} */}
                 </div>
             </div>
             <div className="copy">
