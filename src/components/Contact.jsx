@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="copy">
-                <span> &copy;Designed by pavankumar chikoti</span>
+                <span>Designed by pavankumar chikoti</span>
             </div>
         </section>
     );
